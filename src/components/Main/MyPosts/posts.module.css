@@ -1,0 +1,88 @@
+.list {
+    padding: 30px 0;
+    margin: 30px auto;
+    background: #201c2b;
+    border-radius: 30px;
+}
+
+.textPost {
+    resize: none;
+    background-color: #f0f0f0;
+    border: 1px solid #c6c6c6;
+    height: 120px;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+textarea {
+    border: 1px solid black;
+    height: 100px;
+}
+
+span {
+    cursor: pointer;
+}
+
+.sts {
+    border-radius: 30px;
+}
+
+.addPost {
+    margin: 0 20px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons button {
+    height: 33.33%;
+    width: 40px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+}
+
+.smile {
+    border-radius: 10px 0 0 0;
+    background: url('./icon/face.png') #f0f0f0 center/60% 60% no-repeat;
+    transition: all .5s;
+}
+
+.smile:hover {
+    background: url('./icon/face.png') #b70982 center/60% 60% no-repeat;
+}
+
+.photo {
+    background: url('./icon/camera.png') #f0f0f0 center/60% 60% no-repeat;
+    transition: all .5s;
+}
+
+.photo:hover {
+    background: url('./icon/camera.png') #b70982 center/60% 60% no-repeat;
+}
+
+.files {
+    border-radius: 0 0 0 10px;
+    background: url('./icon/book.png') #f0f0f0 center/60% 60% no-repeat;
+    transition: all .5s;
+}
+
+.files:hover {
+    background: url('./icon/book.png') #b70982 center/60% 60% no-repeat;
+}
+
+.button {
+    width: 100px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    outline: none;
+    transition: all .5s;
+}
+.button:hover{
+    background-color: #b70982;
+}

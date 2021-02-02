@@ -1,0 +1,53 @@
+
+/*Навигация*/
+.navSidebar {
+    grid-area: n;
+    max-width: 200px;
+  }
+  
+  .sidebarList {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 0;
+    background-color: #201c2b;
+    border-radius:30px;
+  }
+  
+  .sidebarListItem {
+    display: block;
+    padding: 20px;
+  }
+  
+  .sidebarListItem {
+    color: #94959a;
+    font-weight: 600;
+    font-size: 25px;
+    font-family:'Cyberpunk', sans-serif;
+    box-sizing: content-box;
+  }
+  .sidebarListItem:hover{
+    
+    text-shadow: 0px 0px 10px #b70982, 0 0 1em #b70982;
+  }
+  .activeLink{
+    color: #b70982;
+  }
+
+  /*Friends*/
+  .friendContainer{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 0;
+    background-color: #201c2b;
+    border-radius:30px;
+    max-height: 400px;
+  }
+  .friendContainer h2{
+    color: #94959a;
+  }

@@ -1,0 +1,57 @@
+.mainProfile {
+  display: flex;
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+}
+
+.mainContent {
+  background-color: none;
+}
+
+.mainCols {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #201c2b;
+  margin-right: 20px;
+  border-radius: 30px;
+  word-wrap: break-word;
+}
+
+.avatars {
+  max-width: 200px;
+  height: 250px;
+  border-radius:12px;
+}
+
+.pageBlock {
+  display: inline-block;
+  padding: 20px;
+}
+
+.avatarDescription {
+  align-items: center;
+}
+
+.right {
+  flex-grow: 5;
+}
+
+.description {
+  flex-grow: 5;
+  background: #201c2b;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.pageName {
+  text-align: center;
+}
+
+.changeAva {
+  display: block;
+  padding-bottom: 20px;
+}
